@@ -4,7 +4,7 @@
 
 **Usage Guid**
 
-- General Users (link)
+- General Users (Trial) ([link]())
 - Academic Users ([link](https://www.sas.com/en_us/software/viya-workbench-for-learners.html))
 
 ---
