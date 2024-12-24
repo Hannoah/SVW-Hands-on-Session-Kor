@@ -10,9 +10,9 @@
 ## **Resources**
 
 - Data ([link](Data))
-- SAS Code ([link]())
-- Python Code ([link]())
-- Hands-on Materials ([link]())
+- SAS Code ([link](SAS Code))
+- Python Code ([link](Python Code))
+- Hands-on Materials ([link](Hands-on Materials))
 
 ---
 
