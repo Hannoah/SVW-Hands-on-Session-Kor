@@ -1,15 +1,13 @@
 # **SAS Viya Workbench: Hands-on Session for South Korean Clients**
 
----
-
-**Usage Guid**
+## **Usage Guid**
 
 - General Users (Trial) ([link]())
 - Academic Users ([link](https://www.sas.com/en_us/software/viya-workbench-for-learners.html))
 
 ---
 
-**Resources**
+## **Resources**
 
 - Data ([link](Data))
 - SAS Code ([link]())
@@ -18,7 +16,7 @@
 
 ---
 
-**Relavant Materials**
+## **Relavant Materials**
 
 - User Guide ([link](https://documentation.sas.com/doc/en/workbenchcdc/v_001/workbenchwlcm/home.htm))
 - Demo Video ([link](https://www.youtube.com/playlist?list=PLVV6eZFA22QzkSYKD4vbZFkq3VYDWvcb_))
