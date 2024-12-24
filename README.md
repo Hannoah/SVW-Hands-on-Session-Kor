@@ -1,6 +1,6 @@
 # **SAS Viya Workbench: Hands-on Session for South Korean Clients**
 
-## **Usage Guid**
+## **Usage Guide**
 
 - General Users (Trial) ([link]())
 - Academic Users ([link](https://www.sas.com/en_us/software/viya-workbench-for-learners.html))
