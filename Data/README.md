@@ -76,7 +76,7 @@
         | 12 | ca | number of major vessels (0-3) colored by flourosopy | Feature | Integer | yes |
         | 13 | thal | Thalassemia (3: Normal, 6: Fixed defect, 7: Reversible defect) | Feature | char | yes |
         | 14 | num | Diagnosis of heart disease (1: Disease, 0: No disease) | Target | Binary | no |
-- **3. [Public]** Predict Students' Dropout and Academic Success **([Dataset](https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip) / [Source](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success))**
+- **3. [Public]** StudentDropout **([Dataset](https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip) / [Source](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success))**
     
     - File: [Predict Students Dropout and Academic Success.csv](Predict_Students_Dropout_and_Academic_Success.csv)
     
