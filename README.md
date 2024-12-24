@@ -9,10 +9,10 @@
 
 ## **Resources**
 
-- Data ([link](Data))
-- SAS Code ([link](SAS Code))
-- Python Code ([link](Python Code))
-- Hands-on Materials ([link](Hands-on Materials))
+- Data ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Data))
+- SAS Code ([link]([SAS Code](https://github.com/Hannoah/myFirstGithub/tree/main/SAS Code)))
+- Python Code ([link]([Python Code](https://github.com/Hannoah/myFirstGithub/tree/main/Python Code)))
+- Hands-on Materials ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Hands-on Materials))
 
 ---
 
