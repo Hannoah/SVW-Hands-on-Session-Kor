@@ -2,7 +2,7 @@
 
 - **1. [Telco]** Churn **([Dataset](https://github.com/sassoftware/sas-viya-workbench-examples/blob/main/data/churn.csv) / [Source](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset.))**
     
-    [churn.csv](churn.csv)
+    - File: [churn.csv](churn.csv)
     
     - **(Dataset Information)** This dataset is randomly collected from an **Iranian telecom company**’s database over a period of **12 months.** A total of **3150 rows of data**, each representing a customer, bear information for **13 columns**. The attributes that are in this dataset are **call failures, frequency of SMS, number of complaints, number of distinct calls, subscription length, age group, the charge amount, type of service, seconds of use, status, frequency of use, and Customer Value.** All of the attributes except for attribute churn is the aggregated data of the **first 9 months.** The churn labels are the **state of the customers at the end of 12 months**. The **three months is the designated planning gap.**
     - **Data Structure**
@@ -40,7 +40,7 @@
         | 14 | Churn | Churn Yes/no (1: churn, 0: non-churn) | Target | binary | no |
 - **2. [medical]** Heart Disease **([Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) / [Source](https://archive.ics.uci.edu/dataset/45/heart+disease))**
     
-    [heart_disease.csv](heart_disease.csv)
+    - File: [heart_disease.csv](heart_disease.csv)
     
     - **(Dataset Information)** This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.  In particular, the Cleveland database is the only one that has been used by ML researchers to date.  **The "goal" field refers to the presence of heart disease in the patient**.  It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). The names and social security numbers of the patients were recently removed from the database, replaced with dummy values. One file has been "processed", that one containing the Cleveland database.  All four unprocessed files also exist in this directory. To see Test Costs (donated by Peter Turney), please see the folder "Costs"
     - **Data Structure**
@@ -78,7 +78,7 @@
         | 14 | num | Diagnosis of heart disease (1: Disease, 0: No disease) | Target | Binary | no |
 - **3. [Public]** Predict Students' Dropout and Academic Success **([Dataset](https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip) / [Source](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success))**
     
-    [Predict Students Dropout and Academic Success.csv](Predict_Students_Dropout_and_Academic_Success.csv)
+    - File: [Predict Students Dropout and Academic Success.csv](Predict_Students_Dropout_and_Academic_Success.csv)
     
     - **(Dataset Information)** This dataset, created from a higher education institution using data acquired from several disjoint databases, includes information on students enrolled in various undergraduate degrees, such as agronomy, design, education, nursing, journalism, management, social service, and technologies. It captures details available at the time of student enrollment, including academic history, demographics, and socioeconomic factors, as well as students' academic performance at the end of the first and second semesters. The dataset was developed to address academic dropout and failure in higher education by employing machine learning techniques to identify at-risk students early in their academic journey. It enables the creation of classification models to predict students' likelihood of dropout, continued enrollment, or graduation, formulated as a three-category classification task evaluated at the end of the normal course duration, while accounting for a significant class imbalance leaning toward one of the categories.
     - **Data Structure**
@@ -139,7 +139,7 @@
         
 - **4. [Manufacturing]** Steel Plates Faults **([Dataset](https://www.openml.org/data/download/18151921/php5s7Ep8) [](https://archive.ics.uci.edu/static/public/198/steel+plates+faults.zip)/ [Source](https://www.openml.org/search?type=data&sort=runs&id=40982&status=active))**
     
-    [Faults.csv](Faults.csv)
+    - File: [Faults.csv](Faults.csv)
     
     - **(Dataset Information)** A dataset of steel plates faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
     - **Data Structure**
@@ -197,7 +197,7 @@
         | 35 | Other_Faults | This category encompasses defects that do not fit into the specific types listed above, including any anomalies detected on the steel plates | target | binary | no |
 - **5. [Card]** Credit Default **(Dataset / [Source](https://www.kaggle.com/datasets/gustavotg/credit-default))**
     
-    [datacreditos.csv](datacreditos.csv)
+    - File: [datacreditos.csv](datacreditos.csv)
     
     - **(Dataset Information)** This Dataset contains information on all 4,349 fake clients from financial institution. The information contained in this Dataset include Random Id, banking Default,Loan Type, Gender, Age, Degree, Income, Credit_Score, etc. The information was bulding just for educational and research purpose if you are beginner in data science world maybe this is your perfect dataset to getting started.
     - **Data Structure**
