@@ -1,9 +1,15 @@
 # **SAS Viya Workbench: Hands-on Session for South Korean Clients**
 
-## Github Repository 연동
+## Github Repository 연동 및 해제
+### 연동 방법
+ - SAS Viya Workbench에 Workbench를 생성
+ - 하단의 Terminal 탭을 클릭
+ - Termianl에 프롬프트 입력
+### 연동 프롬프트
 ```
 $ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ```
+### 해제 프롬프트
 
 ## **Usage Guide**
 
