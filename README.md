@@ -10,6 +10,9 @@
 $ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ```
 ### 해제 프롬프트
+```
+$ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
+```
 
 ## **Usage Guide**
 
