@@ -21,13 +21,13 @@ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 
 - [Data](https://github.com/Hannoah/myFirstGithub/tree/main/Data)
 - [SAS Code](https://github.com/Hannoah/myFirstGithub/tree/main/SAS%20Code)
-- Python Code ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Python%20Code))
-- Hands-on Materials ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Hands-on%20Materials))
+- [Python Code](https://github.com/Hannoah/myFirstGithub/tree/main/Python%20Code)
+- [Hands-on Materials](https://github.com/Hannoah/myFirstGithub/tree/main/Hands-on%20Materials)
 
 ---
 
 ## **4. Relavant Materials**
 
-- User Guide ([link](https://documentation.sas.com/doc/en/workbenchcdc/v_001/workbenchwlcm/home.htm))
-- Demo Video ([link](https://www.youtube.com/playlist?list=PLVV6eZFA22QzkSYKD4vbZFkq3VYDWvcb_))
-- Webinar (SAS Korea) ([link](https://www.sas.com/ko_kr/events/2024/idg-workbench-webinar.html))
+- [User Guide](https://documentation.sas.com/doc/en/workbenchcdc/v_001/workbenchwlcm/home.htm)
+- [Demo Video](https://www.youtube.com/playlist?list=PLVV6eZFA22QzkSYKD4vbZFkq3VYDWvcb_)
+- [Webinar (SAS Korea)](https://www.sas.com/ko_kr/events/2024/idg-workbench-webinar.html)
