@@ -2,7 +2,7 @@
 
 ## Github Repository 연동
 ```
-$ git clone https://github.com/choiiis/balanchew.git
+$ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ```
 
 ## **Usage Guide**
