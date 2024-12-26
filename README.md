@@ -12,15 +12,15 @@ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ---
 ## **2. Usage Guide**
 
-- General Users (Trial) ([link]())
-- Academic Users ([link](https://www.sas.com/en_us/software/viya-workbench-for-learners.html))
+- [General Users (Trial)]()
+- [Academic Users](https://www.sas.com/en_us/software/viya-workbench-for-learners.html)
 
 ---
 
 ## **3. Resources**
 
-- Data ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Data))
-- SAS Code ([link](https://github.com/Hannoah/myFirstGithub/tree/main/SAS%20Code))
+- [Data](https://github.com/Hannoah/myFirstGithub/tree/main/Data)
+- [SAS Code](https://github.com/Hannoah/myFirstGithub/tree/main/SAS%20Code)
 - Python Code ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Python%20Code))
 - Hands-on Materials ([link](https://github.com/Hannoah/myFirstGithub/tree/main/Hands-on%20Materials))
 
