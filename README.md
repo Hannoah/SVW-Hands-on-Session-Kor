@@ -5,15 +5,10 @@
  - SAS Viya Workbench에 Workbench를 생성
  - 하단의 Terminal 탭을 클릭
  - Termianl에 프롬프트 입력
-### 연동 프롬프트
+### Repository 복제(copy) 프롬프트
 ```
 $ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ```
-### 해제 프롬프트
-```
-$ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
-```
-
 ## **Usage Guide**
 
 - General Users (Trial) ([link]())
