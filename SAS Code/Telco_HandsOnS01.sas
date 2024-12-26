@@ -9,7 +9,6 @@ proc http
     out = fp;
 run;
 
-
 data svwlib.churn;
 infile fp dsd firstObs = 2;
 attrib 
@@ -45,6 +44,7 @@ input
     Churn                   $
    ;
 run;
+
 /* 2. Data Exploration */
 /* 2.1. first 10 observation of source table */
 proc print data = svwlib.churn(obs = 10) noobs;
