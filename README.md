@@ -1,5 +1,10 @@
 # **SAS Viya Workbench: Hands-on Session for South Korean Clients**
 
+## Github Repository 연동
+```
+$ git clone https://github.com/choiiis/balanchew.git
+```
+
 ## **Usage Guide**
 
 - General Users (Trial) ([link]())
