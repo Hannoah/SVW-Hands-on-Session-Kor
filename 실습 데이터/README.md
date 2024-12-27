@@ -21,22 +21,22 @@
     - **메타 정보**
         
         
-        | No | **컬럼**  | 설명 | 역할 | 유형 | 결측 |
-        | --- | --- | --- | --- | --- | --- |
-        | 1 | Call Failure | number of call failures | Feature | Integer | no |
-        | 2 | Complains | customer complaint status (0: No complaint, 1: complaint) | Feature | binary | no |
-        | 3 | Subscription Length | total months of subscription | Feature | Integer | no |
-        | 4 | Charge Amount | customer's charge level (0: lowest amount, 9: highest amount) | Feature | Ordinal | no |
-        | 5 | Seconds of Use | total seconds of calls | Feature | Integer | no |
-        | 6 | Frequency of use | total number of calls | Feature | Integer | no |
-        | 7 | Frequency of SMS | total number of text messages | Feature | Integer | no |
-        | 8 | Distinct Called Numbers | total number of distinct phone calls | Feature | Integer | no |
-        | 9 | Age Group | age group (1: younger age, 5: older age) | Feature | ordinal | no |
-        | 10 | Tariff Plan | customer's billing plan type (1: Pay as you go, 2: contractual) | Feature | Integer | no |
-        | 11 | Status | customer’s current status (1: active, 2: non-active) | Feature | binary | no |
-        | 12 | Age | age | Feature | Integer | no |
-        | 13 | Customer Value | The calculated value of customer | Feature | Interval | no |
-        | 14 | Churn | Churn Yes/no (1: churn, 0: non-churn) | Target | binary | no |
+        | No | **컬럼** | **한글명** | 설명 | 역할 | 유형 | 결측 |
+        | --- | --- | --- | --- | --- | --- | --- |
+        | 1 | CallFail | 통화 실패 | 통화 실패 횟수 | Feature | Integer | no |
+        | 2 | Complaints | 불만 여부 | 고객 불만 상태 (0: 불만 없음, 1: 불만 있음) | Feature | binary | no |
+        | 3 | SubLength | 가입 기간 | 총 가입 기간(개월) | Feature | Integer | no |
+        | 4 | ChargeAmt | 요금 수준 | 고객 요금 수준 (0: 최저 금액, 9: 최고 금액) | Feature | Ordinal | no |
+        | 5 | SecOfUse | 통화 시간 | 총 통화 시간(초) | Feature | Integer | no |
+        | 6 | FreqOfUse | 통화 횟수 | 총 통화 횟수 | Feature | Integer | no |
+        | 7 | FreqSMS | 문자 횟수 | 총 문자 메시지 발송 횟수 | Feature | Integer | no |
+        | 8 | DistCallNum | 고유 통화 수 | 고유 통화 상대방 수 | Feature | Integer | no |
+        | 9 | AgeGroup | 연령대 | 연령대 (1: 젊은 연령, 5: 고령) | Feature | ordinal | no |
+        | 10 | TariffPlan | 요금제 | 고객의 요금제 유형 (1: 선불, 2: 계약제) | Feature | Integer | no |
+        | 11 | Status | 상태 | 고객 현재 상태 (1: 활성, 2: 비활성) | Feature | binary | no |
+        | 12 | Age | 연령 | 고객 연령 | Feature | Integer | no |
+        | 13 | CustValue | 고객 가치 | 고객 가치 계산 값 | Feature | Interval | no |
+        | 14 | Churn | 이탈 여부 | 이탈 여부 (1: 이탈, 0: 비이탈) | Target | binary | no |
 - **2. [medical]** Heart Disease **([Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) / [Source](https://archive.ics.uci.edu/dataset/45/heart+disease))**
     
     - File: [heart_disease.csv](heart_disease.csv)
