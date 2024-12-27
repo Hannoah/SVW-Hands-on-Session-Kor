@@ -34,6 +34,6 @@ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 
 ## **4. 관련 문서 및 학습 자료**
 
-- [사용자 매뉴얼 문서](https://documentation.sas.com/doc/en/workbenchcdc/v_001/workbenchwlcm/home.htm)
+- [사용자 매뉴얼 문서(eng)](https://documentation.sas.com/doc/en/workbenchcdc/v_001/workbenchwlcm/home.htm)
 - [본사 데모 영상(eng)](https://www.youtube.com/playlist?list=PLVV6eZFA22QzkSYKD4vbZFkq3VYDWvcb_)
 - [웨비나 영상(kor)](https://www.sas.com/ko_kr/events/2024/idg-workbench-webinar.html)
