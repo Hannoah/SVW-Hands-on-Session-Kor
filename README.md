@@ -12,8 +12,12 @@ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ---
 ## **2. 사용 가이드**
 
-- [General Users (Trial)]()
-- [Academic Users](https://www.sas.com/en_us/software/viya-workbench-for-learners.html)
+- [일반 사용자를 위한 Tria 버전]()
+- [아카데미 사용자를 위한 Free 버전](https://www.sas.com/en_us/software/viya-workbench-for-learners.html)
+  - SAS Viya Workbench for learners는 아카데미 사용자에게 무료로 제공됩니다.
+  - 다만, 계정당 사용 가능한 리소스 범위가 제한 되어 있습니다(디스크: 최대 10GB).
+  - 아카데미 버전 역시 클라우드 환경에서 제공되며, 가입 후 즉시 이용 가능합니다.
+  - 다만, 아카데미 사용자는 '.ac.kr'과 같이 아카데미 이메일 주소에 한하여 가입이 가능합니다.
 
 ---
 
