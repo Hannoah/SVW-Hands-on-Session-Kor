@@ -2,7 +2,7 @@
 
 - **1. [통신]** Churn **([Dataset](https://github.com/sassoftware/sas-viya-workbench-examples/blob/main/data/churn.csv) / [Source](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset.))**
     
-    - File: [churn.csv](churn.csv)
+    - 파일: [churn.csv](churn.csv)
     
     - **(데이터 정보)** 이 데이터는 이란의 한 통신사 데이터베이스에서 12개월 동안 무작위로 수집되었다. 데이터는 총 3,150개의 행과 13개 열로 구성되어 있으며, 각 행은 고객을 의미한다. 이 데이터는 '통화 실패, SMS 빈도, 불만 건수, 고유 통화 수, 가입 기간, 연령대, 요금 금액, 서비스 유형, 사용 시간(초), 상태, 사용 빈도, 고객 가치' 변수를 가지고 있다. 이탈(churn) 속성을 제외한 모든 속성은 처음 9개월 동안 집계했다. 이탈(churn labels)은 12개월 말의 고객 상태를 나타낸다. 3개월은 이탈 여부를 판단하기 위한 기간(planning gap)이다.
     - **Data Structure**
@@ -16,12 +16,12 @@
         | 인스턴스 | 3,150 |
         | 특징 | 13 |
         | 타겟 | Churn (Binary) |
-    - **Source:** Iranian Churn Dataset. UCI Machine Learning Repository. [https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset).
-    - **License:** This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
-    - **Variable Information**
+    - **원천:** Iranian Churn Dataset. UCI Machine Learning Repository. [https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset).
+    - **라이센스:** This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
+    - **메타 정보**
         
         
-        | No | **Variable**  | Description | Role | Type | Missing |
+        | No | **컬럼**  | 설명 | 역할 | 유형 | 결측 |
         | --- | --- | --- | --- | --- | --- |
         | 1 | Call Failure | number of call failures | Feature | Integer | no |
         | 2 | Complains | customer complaint status (0: No complaint, 1: complaint) | Feature | binary | no |
