@@ -35,6 +35,6 @@
 
 ---
 
-## 2. Water Quality and Potability
+## **2. 음용수 예측 (Water Quality and Potability)**
 
 
