@@ -25,7 +25,7 @@ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 
 ## **3. 관련 코드 자료들**
 
-- [실습 데이터](https://github.com/Hannoah/myFirstGithub/tree/main/실습%데이터)
+- [실습 데이터](https://github.com/Hannoah/SVW-Hands-on-Session-Kor/tree/main/%EC%8B%A4%EC%8A%B5%20%EB%8D%B0%EC%9D%B4%ED%84%B0)
 - [SAS 프로그램](https://github.com/Hannoah/myFirstGithub/tree/main/SAS%20Code)
 - [Python 프로그램](https://github.com/Hannoah/myFirstGithub/tree/main/Python%20Code)
 - [Hands-on 관련 자료](https://github.com/Hannoah/myFirstGithub/tree/main/Hands-on%20Materials)
