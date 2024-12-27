@@ -4,20 +4,23 @@
 ** 작성자: Han, Noah (SAS Korea, PSD/AA)
 *************************************************************************************/
 
-/* Excel 파일 로드 */
+/* Excel 파일 로드 및 라이브러리 할당 */
 libname HDSON "/workspaces/workspace/localLib";
-libname HRDDATA xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/실습 데이터/HRData.xlsx";
+libname HRData xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/실습 데이터/HRData.xlsx";
 
 
-data hdson.hrd_code;
-    set hrddata.codebook;
+/* 파일 로드 */
+data HDSON.hrd_code;
+    set HRData.codebook;
 run;
 
-proc format cntlin = hdson.hrd_code;
+/* 포맷 할당 */
+proc format cntlin = HDSON.hrd_code;
 run;
 
-data hdson.hrd_data;
-    set hrddata.hrdata;
+/* 데이터 저장 */
+data HDSON.hrd_data;
+    set HRData.hrdata;
     attrib
         EMP_ID                           label = '[KN] 직원고유번호'
         SEX	                             label = '[IC] 성별'
@@ -42,4 +45,5 @@ data hdson.hrd_data;
     ;
 run;
 
+/* 데이터 로드 결과 확인 */
 proc print data = HDSON.HRD_DATA label noobs;run;
