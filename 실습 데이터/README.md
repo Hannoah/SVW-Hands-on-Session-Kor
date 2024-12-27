@@ -8,15 +8,14 @@
     - **Data Structure**
         
         
-        | **Sections** | **Details** |
+        | **구분** | **내용** |
         | --- | --- |
-        | Name | Chrun |
-        | Subject Area | Business |
-        | Associated Tasks | Classification, Regression |
-        | Feature Type | Integer |
-        | Instances | 3,150 |
-        | Features | 13 |
-        | Target | Churn (Binary) |
+        | 데이터 이름 | Chrun |
+        | 영역 | 비즈니스 |
+        | 관련 주제 | 분류 |
+        | 인스턴스 | 3,150 |
+        | 특징 | 13 |
+        | 타겟 | Churn (Binary) |
     - **Source:** Iranian Churn Dataset. UCI Machine Learning Repository. [https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset).
     - **License:** This data set is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
     - **Variable Information**
