@@ -1,6 +1,6 @@
-# Sample DataSet
+# 실습 데이터 설명
 
-- **1. [Telco]** Churn **([Dataset](https://github.com/sassoftware/sas-viya-workbench-examples/blob/main/data/churn.csv) / [Source](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset.))**
+- **1. [통신]** Churn **([Dataset](https://github.com/sassoftware/sas-viya-workbench-examples/blob/main/data/churn.csv) / [Source](https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset.))**
     
     - File: [churn.csv](churn.csv)
     
