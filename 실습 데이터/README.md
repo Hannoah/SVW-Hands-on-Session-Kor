@@ -21,28 +21,28 @@
     - **메타 정보**
         
         
-        | No | **컬럼** | **한글명** | 설명 | 역할 | 유형 | 결측 |
-        | --- | --- | --- | --- | --- | --- | --- |
-        | 1 | CallFail | 통화 실패 | 통화 실패 횟수 | Feature | Integer | no |
-        | 2 | Complaints | 불만 여부 | 고객 불만 상태 (0: 불만 없음, 1: 불만 있음) | Feature | binary | no |
+        | No | **컬럼** | **한글명** | 설명 | 역할 | 유형 |
+        | --- | --- | --- | --- | --- | --- |
+        | 1 | CallFail | 통화 실패 | 통화 실패 횟수 | Feature | Integer |
+        | 2 | Complaints | 불만 여부 | 고객 불만 상태 (0: 불만 없음, 1: 불만 있음) | Feature | binary |
         | 3 | SubLength | 가입 기간 | 총 가입 기간(개월) | Feature | Integer | no |
-        | 4 | ChargeAmt | 요금 수준 | 고객 요금 수준 (0: 최저 금액, 9: 최고 금액) | Feature | Ordinal | no |
-        | 5 | SecOfUse | 통화 시간 | 총 통화 시간(초) | Feature | Integer | no |
-        | 6 | FreqOfUse | 통화 횟수 | 총 통화 횟수 | Feature | Integer | no |
-        | 7 | FreqSMS | 문자 횟수 | 총 문자 메시지 발송 횟수 | Feature | Integer | no |
-        | 8 | DistCallNum | 고유 통화 수 | 고유 통화 상대방 수 | Feature | Integer | no |
-        | 9 | AgeGroup | 연령대 | 연령대 (1: 젊은 연령, 5: 고령) | Feature | ordinal | no |
-        | 10 | TariffPlan | 요금제 | 고객의 요금제 유형 (1: 선불, 2: 계약제) | Feature | Integer | no |
-        | 11 | Status | 상태 | 고객 현재 상태 (1: 활성, 2: 비활성) | Feature | binary | no |
-        | 12 | Age | 연령 | 고객 연령 | Feature | Integer | no |
-        | 13 | CustValue | 고객 가치 | 고객 가치 계산 값 | Feature | Interval | no |
-        | 14 | Churn | 이탈 여부 | 이탈 여부 (1: 이탈, 0: 비이탈) | Target | binary | no |
-- **2. [medical]** Heart Disease **([Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) / [Source](https://archive.ics.uci.edu/dataset/45/heart+disease))**
+        | 4 | ChargeAmt | 요금 수준 | 고객 요금 수준 (0: 최저 금액, 9: 최고 금액) | Feature | Ordinal |
+        | 5 | SecOfUse | 통화 시간 | 총 통화 시간(초) | Feature | Integer |
+        | 6 | FreqOfUse | 통화 횟수 | 총 통화 횟수 | Feature | Integer |
+        | 7 | FreqSMS | 문자 횟수 | 총 문자 메시지 발송 횟수 | Feature | Integer |
+        | 8 | DistCallNum | 고유 통화 수 | 고유 통화 상대방 수 | Feature | Integer |
+        | 9 | AgeGroup | 연령대 | 연령대 (1: 젊은 연령, 5: 고령) | Feature | ordinal |
+        | 10 | TariffPlan | 요금제 | 고객의 요금제 유형 (1: 선불, 2: 계약제) | Feature | Integer |
+        | 11 | Status | 상태 | 고객 현재 상태 (1: 활성, 2: 비활성) | Feature | binary |
+        | 12 | Age | 연령 | 고객 연령 | Feature | Integer |
+        | 13 | CustValue | 고객 가치 | 고객 가치 계산 값 | Feature | Interval |
+        | 14 | Churn | 이탈 여부 | 이탈 여부 (1: 이탈, 0: 비이탈) | Target | binary |
+- **2. [의료]** Heart Disease **([Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) / [Source](https://archive.ics.uci.edu/dataset/45/heart+disease))**
     
-    - File: [heart_disease.csv](heart_disease.csv)
+    - 파일: [heart_disease.csv](heart_disease.csv)
     
-    - **(Dataset Information)** This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.  In particular, the Cleveland database is the only one that has been used by ML researchers to date.  **The "goal" field refers to the presence of heart disease in the patient**.  It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). The names and social security numbers of the patients were recently removed from the database, replaced with dummy values. One file has been "processed", that one containing the Cleveland database.  All four unprocessed files also exist in this directory. To see Test Costs (donated by Peter Turney), please see the folder "Costs"
-    - **Data Structure**
+    - **(데이터 정보)** This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.  In particular, the Cleveland database is the only one that has been used by ML researchers to date.  **The "goal" field refers to the presence of heart disease in the patient**.  It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). The names and social security numbers of the patients were recently removed from the database, replaced with dummy values. One file has been "processed", that one containing the Cleveland database.  All four unprocessed files also exist in this directory. To see Test Costs (donated by Peter Turney), please see the folder "Costs"
+    - **데이터 정보 개요**
         
         
         | **Sections** | **Details** |
