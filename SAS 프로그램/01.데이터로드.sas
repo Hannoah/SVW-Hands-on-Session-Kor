@@ -5,7 +5,7 @@
 *************************************************************************************/
 
 /* Excel 파일 로드 */
-libname HDSON "/workspaces/workspace/SVW-Hands-on-Session-Kor/작업공간";
+libname HDSON "/workspaces/workspace/localLib";
 libname HRDDATA xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/실습 데이터/HRData.xlsx";
 
 
