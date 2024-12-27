@@ -1,4 +1,4 @@
-# **SAS Viya Workbench: Hands-on Session for South Korean Clients**
+# ** 한국 고객을 위한 SAS Viya Workbench: Hands-on Session **
 
 ## **1. Github Repository 연동 및 해제**
 ### 1) 연동 방법
@@ -10,14 +10,14 @@
 git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 ```
 ---
-## **2. Usage Guide**
+## **2. 사용 가이드 **
 
 - [General Users (Trial)]()
 - [Academic Users](https://www.sas.com/en_us/software/viya-workbench-for-learners.html)
 
 ---
 
-## **3. Resources**
+## **3. 관련 코드 자료들 **
 
 - [Data](https://github.com/Hannoah/myFirstGithub/tree/main/Data)
 - [SAS Code](https://github.com/Hannoah/myFirstGithub/tree/main/SAS%20Code)
@@ -26,7 +26,7 @@ git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
 
 ---
 
-## **4. Relavant Materials**
+## **4. 관련 문서 및 학습 자료 **
 
 - [User Guide](https://documentation.sas.com/doc/en/workbenchcdc/v_001/workbenchwlcm/home.htm)
 - [Demo Video](https://www.youtube.com/playlist?list=PLVV6eZFA22QzkSYKD4vbZFkq3VYDWvcb_)
