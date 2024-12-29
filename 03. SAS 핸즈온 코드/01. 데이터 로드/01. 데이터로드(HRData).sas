@@ -6,7 +6,7 @@
 
 /* Excel 파일 로드 및 라이브러리 할당 */
 libname LOCLIB "/workspaces/workspace/localLib";
-libname HRData xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/실습 데이터/HRData.xlsx";
+libname HRData xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/01. RAW 데이터/HRData.xlsx";
 
 
 /* 파일 로드 */
@@ -46,4 +46,4 @@ data LOCLIB.hrd_data;
 run;
 
 /* 데이터 로드 결과 확인 */
-proc print data = HDSON.HRD_DATA label noobs;run;
+proc print data = LOCLIB.HRD_DATA label noobs;run;
