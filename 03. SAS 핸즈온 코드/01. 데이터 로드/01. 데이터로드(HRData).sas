@@ -5,21 +5,21 @@
 *************************************************************************************/
 
 /* Excel 파일 로드 및 라이브러리 할당 */
-libname HDSON "/workspaces/workspace/localLib";
+libname LOCLIB "/workspaces/workspace/localLib";
 libname HRData xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/실습 데이터/HRData.xlsx";
 
 
 /* 파일 로드 */
-data HDSON.hrd_code;
+data LOCLIB.hrd_code;
     set HRData.codebook;
 run;
 
 /* 포맷 할당 */
-proc format cntlin = HDSON.hrd_code;
+proc format cntlin = LOCLIB.hrd_code;
 run;
 
 /* 데이터 저장 */
-data HDSON.hrd_data;
+data LOCLIB.hrd_data;
     set HRData.hrdata;
     attrib
         EMP_ID                           label = '[KN] 직원고유번호'
