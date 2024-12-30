@@ -18,42 +18,33 @@ libname WRKLIB "/workspaces/svw_handson/SVW-Hands-on-Session-Kor/02. SAS 데이�
 /** 2) 사용자 정의 포맷 할당 **/
 proc format cntlin = WRKLIB.hrd_code; run;
 
-/** 3) 변수 역할 할당 **/
-/* 수치형 입력 변수 */
-%macro num_input;
-AGE
-SAL_AM
-TNR_DD
-ENG_SCR
-SAT_SCR
-PRJ_CN
-LT_DD
-ABSN
-%mend num_input;
-
-/* 문자형 입력 변수 */
-%macro chr_input;
-SEX
-MAR_ST_CD
-RACE_CD
-STAT_CD
-POSIT_CD
-DEPT_ID
-MNGR_ID
-KPI_CD
-CTZ_CD
-RCRT_CD
-%mend chr_input;
-
 /* 2. 데이터 증강 */
 proc tabulargan data       = WRKLIB.HRD_DATA 
                 seed       = 123 
                 numSamples = 100
                 ;
 
-      input               %num_input /level = interval;
-      input               %chr_input /level = nominal;
-
+      input ENG_SCR
+            SAT_SCR
+            AGE
+            SAL_AM
+            TNR_DD
+            PRJ_CN
+            LT_DD
+            ABSN
+          / level = interval;
+      input SEX
+            MAR_ST_CD
+            RACE_CD
+            STAT_CD
+            POSIT_CD
+            DEPT_ID
+            MNGR_ID
+            KPI_CD
+            CTZ_CD
+            RCRT_CD 
+            TRMD_YN
+          / level = nominal;
       gmm                 alpha       = 1 
                           maxClusters = 10 
                           seed        = 42 
@@ -75,3 +66,5 @@ proc tabulargan data       = WRKLIB.HRD_DATA
       savestate           rstore = WRKLIB.CPCTGAN_MODEL; 
       output              out    = WRKLIB.HRD_AUG_DATA;
 run;
+
+
