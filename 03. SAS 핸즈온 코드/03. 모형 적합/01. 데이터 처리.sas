@@ -49,5 +49,3 @@ proc tabulate data = WRKLIB.hrd_data_parted;
         , (N='빈도' PCTN='백분율(%)')
     ;
 run;
-
-
