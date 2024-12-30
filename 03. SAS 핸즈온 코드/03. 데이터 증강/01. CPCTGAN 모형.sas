@@ -1,7 +1,7 @@
 /************************************************************************************************
+** 제목: 데이터 증강
 **
-**
-**
+**  
 **
 **
 **
@@ -46,13 +46,32 @@ RCRT_CD
 %mend chr_input;
 
 /* 2. 데이터 증강 */
-proc tabulargan data=WRKLIB.HRD_DATA seed=123 numSamples=5;
+proc tabulargan data       = WRKLIB.HRD_DATA 
+                seed       = 123 
+                numSamples = 100
+                ;
+
       input               %num_input /level = interval;
       input               %chr_input /level = nominal;
-      gmm                 alpha=1 maxClusters=10 seed=42 VB(maxVbIter=30);
-      aeoptimization      ADAM LearningRate=0.0001 numEpochs=3;
-      ganoptimization     ADAM(beta1=0.55 beta2=0.95)  numEpochs=5;
-      train               embeddingDim=64 miniBatchSize=300 useOrigLevelFreq;
-      savestate           rstore = WRKLIB.CPCTGAN_MODEL;     
+
+      gmm                 alpha       = 1 
+                          maxClusters = 10 
+                          seed        = 42 
+                          VB(maxVbIter=30)
+      ;
+
+      aeoptimization      ADAM 
+                          LearningRate = 0.0001
+                          numEpochs    = 3
+      ;
+
+      ganoptimization     ADAM(beta1=0.55 beta2=0.95)  
+                          numEpochs     = 5
+      ;
+      train               embeddingDim  = 64 
+                          miniBatchSize = 300 
+                          useOrigLevelFreq
+      ;
+      savestate           rstore = WRKLIB.CPCTGAN_MODEL; 
       output              out    = WRKLIB.HRD_AUG_DATA;
 run;
