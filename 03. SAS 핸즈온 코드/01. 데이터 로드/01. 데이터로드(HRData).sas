@@ -5,21 +5,21 @@
 *************************************************************************************/
 
 /* Excel 파일 로드 및 라이브러리 할당 */
-libname LOCLIB "/workspaces/workspace/localLib";
-libname HRData xlsx "/workspaces/workspace/SVW-Hands-on-Session-Kor/01. RAW 데이터/HRData.xlsx";
+libname Wrklib "/workspaces/svw_handson/SVW-Hands-on-Session-Kor/02. SAS 데이터";
+libname HRData xlsx "/workspaces/svw_handson/SVW-Hands-on-Session-Kor/01. RAW 데이터/HRData.xlsx";
 
 
 /* 파일 로드 */
-data LOCLIB.hrd_code;
+data Wrklib.hrd_code;
     set HRData.codebook;
 run;
 
 /* 포맷 할당 */
-proc format cntlin = LOCLIB.hrd_code;
+proc format cntlin = Wrklib.hrd_code;
 run;
 
 /* 데이터 저장 */
-data LOCLIB.hrd_data;
+data Wrklib.hrd_data;
     set HRData.hrdata;
     attrib
         EMP_ID                           label = '[KN] 직원고유번호'
@@ -46,4 +46,4 @@ data LOCLIB.hrd_data;
 run;
 
 /* 데이터 로드 결과 확인 */
-proc print data = LOCLIB.HRD_DATA label noobs;run;
+proc print data = Wrklib.HRD_DATA label noobs;run;
