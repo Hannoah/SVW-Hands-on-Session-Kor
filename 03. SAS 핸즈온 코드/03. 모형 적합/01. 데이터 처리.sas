@@ -44,8 +44,8 @@ proc tabulate data = WRKLIB.hrd_data_parted;
         TRMD_YN   format = TGTFMT. label = '타겟 변수'
     ;
     class _partInd_ TRMD_YN;
-    table TRMD_YN*_partInd_
+    table _partInd_*TRMD_YN
           all='전체'
-        , (N='빈도' PCTN='백분율(%)')
+        , (N='빈도' PCTN='백분율(%)' ROWPCTN='Row백분율(%)')
     ;
 run;
