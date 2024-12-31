@@ -9,7 +9,7 @@
 **                WRKLIB.hrd_data 
 ** 6. 기타: n/a
 *************************************************************************************************/
-libname WRKLIB "/workspaces/svw_handson/SVW-Hands-on-Session-Kor/02. SAS 데이터";
+libname WRKLIB "SVW-Hands-on-Session-Kor/02. SAS 데이터";
 proc format cntlin = WRKLIB.hrd_code; run;
 
 /* 1. 데이터 분할 */
