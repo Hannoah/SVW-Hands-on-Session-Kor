@@ -1,7 +1,13 @@
+/************************************************************************************
+** 프로그램 이름: 예제 데이터 로드
+** 작성일: 2024년 12월 27일
+** 작성자: Han, Noah (SAS Korea, PSD/AA)
+*************************************************************************************/
+
 /* 1. Data Preparation */
-libname  svwlib '/workspaces/handson/svwWork';                                                            /* library 할당 */
-%let file_path = https://github.com/Hannoah/SVW-Hands-on-Session-Kor/raw/refs/heads/main/Data//churn.csv; /* 파일 경로   */
-filename fp "/workspaces/handson/data/churn.csv";                                                         /* SAS Viya Workbench에 파일을 저장할 경로 */
+libname  svwlib '/workspaces/handson/svwWork';                                                           /* library 할당 */
+%let file_path = https://github.com/Hannoah/SVW-Hands-on-Session-Kor/raw/refs/heads/main/Data/churn.csv; /* 파일 경로   */
+filename fp "/workspaces/handson/data/churn.csv";                                                        /* SAS Viya Workbench에 파일을 저장할 경로 */
 
 proc http
     url ="&file_path"
