@@ -1,6 +1,6 @@
 # **SAS Viya Workbench: Hands-on Session (KOR)**
 
-## **1. Github Repository 연동 및 해제**
+## **1. Github Repository 복제**
 ### 1) 연동 방법
  - SAS Viya Workbench에 Workbench를 생성
  - 하단의 Terminal 탭을 클릭
