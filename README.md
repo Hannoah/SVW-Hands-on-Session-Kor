@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/Hannoah/sas-viya-workbench-kor-handsOn.git
 ```
----
+
 ## **2. 사용 가이드**
 
 - [일반 사용자를 위한 Trial 환경]()
@@ -19,7 +19,7 @@ git clone https://github.com/Hannoah/sas-viya-workbench-kor-handsOn.git
   - 아카데미 버전 역시 클라우드 환경에서 제공되며, **가입 후 즉시** 이용 가능합니다.
   - 다만, 아카데미 사용자는 '.ac.kr'과 같이 **아카데미 이메일 주소에 한하여** 가입이 가능합니다.
 
----
+
 
 ## **3. 관련 코드 자료들**
 
@@ -28,7 +28,7 @@ git clone https://github.com/Hannoah/sas-viya-workbench-kor-handsOn.git
 - [Python 프로그램](https://github.com/Hannoah/myFirstGithub/tree/main/Python%20Code)
 - [Hands-on 관련 자료](https://github.com/Hannoah/myFirstGithub/tree/main/Hands-on%20Materials)
 
----
+
 
 ## **4. 관련 문서 및 학습 자료**
 
