@@ -1,4 +1,4 @@
-# **한국 고객을 위한 SAS Viya Workbench: Hands-on Session**
+# **SAS Viya Workbench: Hands-on Session (KOR)**
 
 ## **1. Github Repository 연동 및 해제**
 ### 1) 연동 방법
