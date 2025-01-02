@@ -7,7 +7,7 @@
  - Termianl에 프롬프트 입력
 ### 2) Repository 복제(copy) 프롬프트
 ```
-git clone https://github.com/Hannoah/SVW-Hands-on-Session-Kor.git
+git clone https://github.com/Hannoah/sas-viya-workbench-kor-handsOn.git
 ```
 ---
 ## **2. 사용 가이드**
