@@ -1,11 +1,9 @@
 # **SAS Viya Workbench: Hands-on Session (KOR)**
 
 ## **1. Github Repository 복제**
-### 1) 연동 방법
  - SAS Viya Workbench에 Workbench를 생성
- - 하단의 Terminal 탭을 클릭
- - Termianl에 프롬프트 입력
-### 2) Repository 복제(copy) 프롬프트
+ - 하단의 터미널(terminal) 탭을 클릭
+ - 터미널에 아래 복제 프롬프트 입력
 ```
 git clone https://github.com/Hannoah/sas-viya-workbench-kor-handsOn.git
 ```
